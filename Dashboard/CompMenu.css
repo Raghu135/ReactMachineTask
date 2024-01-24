@@ -1,0 +1,79 @@
+/* CompMenu.css */
+
+.menu-cont {
+    height: 850px;
+    background: url("https://raw.githubusercontent.com/ArabIndustriesInc/Reactmachinetask/main/UI/Assets/Rectangle%201.png") center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .briefcase-image {
+    position: relative;
+    top: 1px;
+    left: 20px;
+    width: 50px;
+    height: auto;
+    z-index: 1;
+    border: none;
+  }
+  
+  .nav-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .nav-button {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000; /* Dark black background color */
+    color: white; /* Text color */
+    padding: 15px 20px; /* Adjust padding as needed */
+    width: 100%; /* Set the width to 100% */
+    text-align: center; /* Center the text within the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    display: flex; /* Make the button a flex container */
+    align-items: center; /* Align items (text and image) vertically */
+  }
+  
+  .nav-button img {
+    margin-right: 10px; /* Add some margin between text and image */
+  }
+  
+  .nav-button:hover {
+    background-color: #333; /* Darker background color on hover */
+  }
+  
+  .nav-button.active {
+    background-color: white; /* White background color for the active button */
+    color: black; /* Black text color for the active button */
+  }
+
+
+  .bottom-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Center the text horizontally */
+    color: #fff; /* Adjust the text color */
+    font-size: 16px; /* Adjust the font size */
+  }
+  

@@ -1,0 +1,19 @@
+/* CompFooter.css */
+
+.footer-container {
+    text-align: center;
+    padding: 5px;
+    background: #f0f0f0;
+  }
+  
+  .circular-button {
+    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    border: 2px solid black; 
+  }
